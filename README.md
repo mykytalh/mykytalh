@@ -45,9 +45,3 @@ Next.js app with Firebase auth where users must complete profile setup before ac
 **Cloud/Infra:** AWS (S3/IAM/CDK), CI/CD, Vercel  
 **Frontend:** React, Next.js (mostly admin/internal tooling)
 
----
-
-## Links
-- Resume: <link>
-- LinkedIn: <link>
-- GitHub: https://github.com/<your-username>
