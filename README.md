@@ -5,7 +5,7 @@ Software engineer focused on backend + full-stack systems (auth, data flows, sto
 - 🎓 Informatics + Data Science @ UW
 - 🧩 Mostly building production systems: authentication, multi-tenant data separation, ingestion flows
 - 🛠️ Current stack: FastAPI, Postgres, AWS, React/Next.js, TypeScript
-- 📫 Reach me: mykyta@ethosphere.ai | LinkedIn: <[your-link](https://www.linkedin.com/in/mykytlh/)>
+- 📫 Reach me: mykyta@ethosphere.ai | LinkedIn: <[(https://www.linkedin.com/in/mykytlh/])>
 
 ---
 
