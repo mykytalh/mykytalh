@@ -5,7 +5,7 @@ Software engineer focused on backend + full-stack systems (auth, data flows, sto
 - 🎓 Informatics + Data Science @ UW
 - 🧩 Mostly building production systems: authentication, multi-tenant data separation, ingestion flows
 - 🛠️ Current stack: FastAPI, Postgres, AWS, React/Next.js, TypeScript
-- 📫 Reach me: mykyta@ethosphere.ai | LinkedIn: <your-link>
+- 📫 Reach me: mykyta@ethosphere.ai | LinkedIn: <[your-link](https://www.linkedin.com/in/mykytlh/)>
 
 ---
 
@@ -29,11 +29,6 @@ I work on backend + full-stack systems used in production and live demos.
 ---
 
 ## Projects (personal / school)
-
-### Study Swipe
-Student networking app to connect people by major/classes.
-- Tech: Next.js, FastAPI, Firebase/Auth, Firestore
-- Focus: profiles, matching flow, onboarding + auth constraints
 
 ### Husky-Connect
 Next.js app with Firebase auth where users must complete profile setup before accessing the full app.
