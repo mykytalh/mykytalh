@@ -32,9 +32,9 @@ I work on backend + full-stack systems used in **production environments and liv
 
 ## Capstone Project — PeerLink (ITHS)
 
-**Type:** UW Informatics Capstone (Team Project)
-**Partner:** Institute of Translational Health Sciences (ITHS)
-**Status:** Completed
+- **Type:** UW Informatics Capstone (Team Project)
+- **Partner:** Institute of Translational Health Sciences (ITHS)
+- **Status:** Completed
 
 ### Overview
 
