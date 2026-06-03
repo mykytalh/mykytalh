@@ -30,78 +30,202 @@ I work on backend + full-stack systems used in **production environments and liv
 
 ---
 
-## Capstone Project — Automated Peer Reviewer Matching (ITHS)
+## Capstone Project — PeerLink (ITHS)
 
-**Type:** UW Informatics Capstone (Team Project)  
-**Status:** In Progress  
+**Type:** UW Informatics Capstone (Team Project)
+**Partner:** Institute of Translational Health Sciences (ITHS)
+**Status:** Completed
 
 ### Overview
-Building a system that **automatically identifies relevant peer reviewers for research abstracts**.
 
-The system uses an **LLM-driven pipeline + OpenAlex API** to retrieve researchers whose work aligns with a given abstract, reducing manual effort and improving consistency in reviewer selection.
+PeerLink is an AI-powered grant reviewer matching platform developed for the Institute of Translational Health Sciences (ITHS). The platform helps research coordinators identify qualified peer reviewers for grant applications by analyzing submitted abstracts and matching them with researchers whose expertise aligns with the proposed work.
 
----
+The system automates a process that was previously manual and time-intensive, allowing coordinators to discover relevant reviewers more efficiently while maintaining transparency and consistency in reviewer selection.
 
-### Current System (MVP)
+### Team Goals and Process
 
-**Pipeline:**
-1. User submits a research abstract  
-2. LLM (Opus) generates structured search queries  
-3. Queries are sent to the OpenAlex API  
-4. Relevant researchers are returned  
+As a team, our goal was to build a production-ready application that could support real-world reviewer matching workflows. We worked closely with stakeholders to understand existing processes, gather requirements, and iteratively improve the system throughout development.
 
----
+Our team:
+
+* Designed an end-to-end reviewer matching workflow
+* Built a web dashboard for managing abstracts and reviewer recommendations
+* Integrated ITHS grant submission data into the platform
+* Developed an AI-driven reviewer matching pipeline
+* Implemented reviewer tracking and management workflows
+* Conducted testing and refinement based on stakeholder feedback
+
+By the end of the project, we delivered a full-stack application capable of processing grant submissions and generating reviewer recommendations through an automated workflow.
 
 ### My Contributions
-- Designed and improved the **abstract → query → retrieval pipeline**
-- Worked on **LLM prompt engineering** for structured, relevant queries
-- Integrated **OpenAlex API** into the workflow
-- Improved **result quality and reduced noise**
-- Debugged issues with:
-  - overly broad queries  
-  - inconsistent or irrelevant results  
-- Applied backend thinking to ensure:
-  - consistent data flow  
-  - predictable outputs  
-  - extensibility  
 
----
+My primary contributions focused on backend development, AI integration, and system architecture.
 
-### Key Challenges
-- Translating **unstructured abstracts → effective search queries**
-- Handling **noisy and inconsistent external data**
-- Balancing:
-  - recall (more results)  
-  - vs precision (relevant results)  
-- Designing beyond “demo-quality” systems  
+I was responsible for:
 
----
+* Designing and improving the reviewer matching pipeline
+* Integrating OpenAlex APIs for researcher discovery and publication retrieval
+* Developing prompt engineering strategies to improve reviewer recommendation quality
+* Building and debugging FastAPI backend services
+* Implementing data ingestion and processing workflows
+* Improving search precision and reducing irrelevant reviewer matches
+* Contributing to application architecture and deployment planning
+* Collaborating across the stack to ensure reliable communication between frontend, backend, and external services
 
-### Next Steps
-- Improve **UI for reviewer exploration**
-  - Show publications, affiliations, relevance  
-  - Enable easier comparison  
+Throughout the project, I applied backend engineering principles to create predictable data flows, scalable integrations, and maintainable system architecture.
 
-- Move logic into a **FastAPI backend**
-  - Centralize LLM + OpenAlex pipeline  
-  - Improve reliability  
+### Challenges
 
-- Add a **PostgreSQL database**
-  - Store abstracts, queries, and results  
-  - Enable caching and analytics  
+One of the biggest challenges was translating highly specialized research abstracts into effective search strategies that could identify relevant experts across multiple institutions.
 
-- Implement **reviewer ranking/scoring**
-  - Relevance, recency, publication signals  
+Additional challenges included:
 
-- Deploy to **AWS**
-  - Backend (EC2 or containers)  
-  - Database (RDS)  
-  - Logging/monitoring  
+* Balancing reviewer relevance and result diversity
+* Handling noisy and inconsistent scholarly metadata
+* Integrating multiple external systems and APIs
+* Designing workflows that could scale beyond a prototype
+* Ensuring reliable performance across asynchronous processing tasks
 
-- Build full **production infrastructure**
-  - Infrastructure as Code (CDK/Terraform)  
-  - CI/CD pipelines  
-  - Dev / prod environments  
+Addressing these challenges required iterative testing, prompt refinement, and continuous evaluation of reviewer quality.
+
+### Skills and Learning
+
+This project strengthened both my technical and professional skills.
+
+**Technical Skills**
+
+* FastAPI backend development
+* API design and integration
+* AI agent workflows and prompt engineering
+* Data processing pipelines
+* Database architecture and storage design
+* Full-stack application development
+* Deployment and infrastructure planning
+
+**Professional Skills**
+
+* Working with real stakeholders and client requirements
+* Cross-functional team collaboration
+* Agile development and project planning
+* Technical communication and documentation
+* Translating user needs into technical solutions
+
+### Results and Outcomes
+
+PeerLink successfully evolved from an initial concept into a complete application capable of supporting reviewer matching workflows for ITHS.
+
+Key outcomes included:
+
+* Delivering a full-stack reviewer matching platform
+* Automating reviewer discovery using AI and scholarly publication data
+* Building a dashboard for managing abstracts, reviewer recommendations, and reviewer outreach
+* Integrating grant submission data into a centralized workflow
+* Creating a scalable architecture using React, FastAPI, and MariaDB
+* Providing a foundation for future improvements and organizational adoption
+
+### Reflection
+
+PeerLink was the most complex and impactful software project I worked on during my time in the Informatics program. It provided experience building software for a real client, integrating AI into production workflows, and collaborating within a development team over multiple quarters.
+
+The project reinforced the importance of system design, data quality, user-centered development, and building solutions that balance technical sophistication with practical usability. It also strengthened my confidence as a backend and full-stack engineer by giving me ownership over critical components of a system intended for real-world use.
+## Capstone Project — PeerLink (ITHS)
+
+**Type:** UW Informatics Capstone (Team Project)
+**Partner:** Institute of Translational Health Sciences (ITHS)
+**Status:** Completed
+
+### Overview
+
+PeerLink is an AI-powered grant reviewer matching platform developed for the Institute of Translational Health Sciences (ITHS). The platform helps research coordinators identify qualified peer reviewers for grant applications by analyzing submitted abstracts and matching them with researchers whose expertise aligns with the proposed work.
+
+The system automates a process that was previously manual and time-intensive, allowing coordinators to discover relevant reviewers more efficiently while maintaining transparency and consistency in reviewer selection.
+
+### Team Goals and Process
+
+As a team, our goal was to build a production-ready application that could support real-world reviewer matching workflows. We worked closely with stakeholders to understand existing processes, gather requirements, and iteratively improve the system throughout development.
+
+Our team:
+
+* Designed an end-to-end reviewer matching workflow
+* Built a web dashboard for managing abstracts and reviewer recommendations
+* Integrated ITHS grant submission data into the platform
+* Developed an AI-driven reviewer matching pipeline
+* Implemented reviewer tracking and management workflows
+* Conducted testing and refinement based on stakeholder feedback
+
+By the end of the project, we delivered a full-stack application capable of processing grant submissions and generating reviewer recommendations through an automated workflow.
+
+### My Contributions
+
+My primary contributions focused on backend development, AI integration, and system architecture.
+
+I was responsible for:
+
+* Designing and improving the reviewer matching pipeline
+* Integrating OpenAlex APIs for researcher discovery and publication retrieval
+* Developing prompt engineering strategies to improve reviewer recommendation quality
+* Building and debugging FastAPI backend services
+* Implementing data ingestion and processing workflows
+* Improving search precision and reducing irrelevant reviewer matches
+* Contributing to application architecture and deployment planning
+* Collaborating across the stack to ensure reliable communication between frontend, backend, and external services
+
+Throughout the project, I applied backend engineering principles to create predictable data flows, scalable integrations, and maintainable system architecture.
+
+### Challenges
+
+One of the biggest challenges was translating highly specialized research abstracts into effective search strategies that could identify relevant experts across multiple institutions.
+
+Additional challenges included:
+
+* Balancing reviewer relevance and result diversity
+* Handling noisy and inconsistent scholarly metadata
+* Integrating multiple external systems and APIs
+* Designing workflows that could scale beyond a prototype
+* Ensuring reliable performance across asynchronous processing tasks
+
+Addressing these challenges required iterative testing, prompt refinement, and continuous evaluation of reviewer quality.
+
+### Skills and Learning
+
+This project strengthened both my technical and professional skills.
+
+**Technical Skills**
+
+* FastAPI backend development
+* API design and integration
+* AI agent workflows and prompt engineering
+* Data processing pipelines
+* Database architecture and storage design
+* Full-stack application development
+* Deployment and infrastructure planning
+
+**Professional Skills**
+
+* Working with real stakeholders and client requirements
+* Cross-functional team collaboration
+* Agile development and project planning
+* Technical communication and documentation
+* Translating user needs into technical solutions
+
+### Results and Outcomes
+
+PeerLink successfully evolved from an initial concept into a complete application capable of supporting reviewer matching workflows for ITHS.
+
+Key outcomes included:
+
+* Delivering a full-stack reviewer matching platform
+* Automating reviewer discovery using AI and scholarly publication data
+* Building a dashboard for managing abstracts, reviewer recommendations, and reviewer outreach
+* Integrating grant submission data into a centralized workflow
+* Creating a scalable architecture using React, FastAPI, and MariaDB
+* Providing a foundation for future improvements and organizational adoption
+
+### Reflection
+
+PeerLink was the most complex and impactful software project I worked on during my time in the Informatics program. It provided experience building software for a real client, integrating AI into production workflows, and collaborating within a development team over multiple quarters.
+
+The project reinforced the importance of system design, data quality, user-centered development, and building solutions that balance technical sophistication with practical usability. It also strengthened my confidence as a backend and full-stack engineer by giving me ownership over critical components of a system intended for real-world use.
 
 ---
 
